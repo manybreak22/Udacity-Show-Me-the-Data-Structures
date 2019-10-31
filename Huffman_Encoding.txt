@@ -1,0 +1,12 @@
+Huffman encoding
+
+In this exercise I decided, after learning how huffman encoding works,
+to use a dictionary to storage the codes. I used counter to check on the
+frequency every char was being used. And lastly used trees to generate a
+unique binary code for each character. The decoding happens by using the
+same mechanic of binary code in the tree. The problem is composed of
+different steps. Char frequencies, Sort frequencies,
+MapfrequenciesToNodes, (The Huffman encoding itself) and Encode tree.
+
+The time complexity(encode) for this problem is O(n log n) and the space
+complexity(decode) is O(n).
